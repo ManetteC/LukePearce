@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	padding:0;
+	margin:0;
+}
+.navbar{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 18px;
+}
+.navbar button{
+	color: #08183A;
+	border-color: #08183A;
+}
+#navbarDropdown {
+	color: #FD5E53;
+}
+#banner .row
+{
+	background-color: antiquewhite;
+	padding: 0 30px;
+	border-radius: 30px;
+}
+#banner a{
+	color:#152852;
+}
+.noidung span
+{
+	color:#FD5E53;
+		
+}
+.noidung
+{
+	padding-top:100px;
+	padding-bottom: 50px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.noidung h1{
+	font-size: 50px;
+}
+.hinhanh 
+{
+	padding: 50px 10px 0 10px;
+}
+.hinhanh img 
+{
+	width: 100%;
+	height: auto;
+	align-items: center;
+}
+.noidung2
+{
+	padding:150px 150px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+.container2{
+	padding: 70px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+.slide video{
+	padding: 0 10% 50px 10%;
+	width: 100%;
+}
+.table-hover{
+	padding: 50px;
+	text-align: center;
+}
+.image{
+	padding: 0 50px 50px 20px;
+}
+
+#form .container-fluid{
+	background-color: antiquewhite;
+	padding: 30px 50px;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	width: 100%;
+	border-radius: 20px;
+}
+#form .content{
+	text-align: center;
+	color: #08183A;
+}
+#form h4{
+	color: #FD5E53;
+}
+#form{
+	padding: 20px 100px;
+}
+#form button{
+	color: white;
+	background-color: #FD5E53;
+	border: none;
+}
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: #FD5E53;
+  color: white;
+  cursor: pointer;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+#Relationship .container-fluid{
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin: 2% 0;
+}
+#Relationship h1{
+	padding-bottom: 20px;
+	color: #08183A;
+}
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #CE9F00;
+  color: black;
+}
+
+.flip-card-back {
+  padding: 10px 15px;
+  background-color: #4B3D60;
+  color: white;
+  transform: rotateY(180deg);
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+body {
+  height: 100%;
+  background: linear-gradient(55deg, #08183A 0%, #FD5E53 51%, #FFE373 85%);
+}
+th{
+	color: antiquewhite;
+}
+html {
+  scroll-behavior: smooth;
+}
+#Card img{
+	width: 100%;
+	height: inherit;
+}
+footer{
+	margin-top: 20px;
+	background-image: url("img/Untitled-2.png");
+	background-position: right;
+	background-size: cover;
+	text-align: center;
+	color: black;
+	padding: 40px;
+	font-size: 14px;
+	width: 100%;
+	height: inherit;
+}
+footer i{
+	padding: 10px;
+	position: inherit;
+}
+footer a{
+	color: black;
+}
